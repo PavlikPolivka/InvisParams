@@ -12,12 +12,6 @@
         <spring.version>4.1.1.RELEASE</spring.version>
     </properties>
 
-    <scm>
-        <connection>scm:svn:http://svn.insideidc.com/repos/webchannel/CMS/trunk/parent</connection>
-        <developerConnection>scm:svn:http://svn.insideidc.com/repos/webchannel/CMS/trunk/parent</developerConnection>
-        <url>http://svn.insideidc.com/repos/webchannel/CMS/trunk/parent</url>
-    </scm>
-
     <dependencyManagement>
         <dependencies>
             <dependency>

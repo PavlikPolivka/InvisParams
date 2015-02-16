@@ -13,12 +13,6 @@
         <relativePath>parent</relativePath>
     </parent>
 
-    <scm>
-        <connection>scm:svn:http://svn.insideidc.com/repos/webchannel/CMS/trunk</connection>
-        <developerConnection>scm:svn:http://svn.insideidc.com/repos/webchannel/CMS/trunk</developerConnection>
-        <url>http://svn.insideidc.com/repos/webchannel/CMS/trunk</url>
-    </scm>
-
     <modules>
         <module>/web</module>
         <module>/parent</module>
