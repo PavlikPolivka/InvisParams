@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>invis-params-core</artifactId>
+    <packaging>jar</packaging>
+    <name>InvisParams Library</name>
+
+    <parent>
+        <groupId>com.ppolivka.invisparams</groupId>
+        <artifactId>parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../parent</relativePath>
+    </parent>
+
+    <scm>
+        <connection>scm:svn:http://svn.insideidc.com/repos/webchannel/CMS/trunk/cms-web</connection>
+        <developerConnection>scm:svn:http://svn.insideidc.com/repos/webchannel/CMS/trunk/cms-web
+        </developerConnection>
+        <url>http://svn.insideidc.com/repos/webchannel/CMS/trunk/cms-web</url>
+    </scm>
+
+    <dependencies>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        <finalName>InvisParams</finalName>
+    </build>
+</project>
