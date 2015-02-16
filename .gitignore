@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+core/invis-params-core.iml
+parent/invis-params-parent.iml
+core/target
+parent/target
+web/invis-params-web.iml
+web/target
+InvisParams.iml
+.idea
